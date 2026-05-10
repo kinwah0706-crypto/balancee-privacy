@@ -7,7 +7,7 @@
 | 路径 | 用途 |
 |------|------|
 | `privacy/` | 隐私政策（**URL 路径勿改**：与已上架 App 中 `Info.plist` 一致） |
-| `terms/` | 使用条款（**`/terms/en/`** 对应 App 内外链） |
+| `terms/` | 使用条款：**`/terms/en/`**、**`/terms/zh/`**（与 `Info.plist` 中 `GREPU_TERMS_OF_USE_URL_*` 对齐） |
 | `about/` | 品牌 / 关于页（如 `https://kanso.ltd/about`） |
 | `legal/README.md` | 仅文档：说明「规划中的 legal 索引」与线上 URL 对应关系 |
 | `CNAME` | GitHub Pages 自定义域：`kanso.ltd` |
@@ -16,9 +16,8 @@
 ## App 与 App Store 使用的 URL
 
 - 隐私政策（当前工程配置）：**`https://kanso.ltd/privacy/en/`**
-- 使用条款：**`https://kanso.ltd/terms/en/`**
-
-（中文界面若暂用同一英文页，可在 `Info.plist` 的 `*_ZH` 键中与英文相同；日后的 `privacy/zh/` 等需与产品/审核对齐后再改。）
+- 使用条款（英文）：**`https://kanso.ltd/terms/en/`**
+- 使用条款（中文）：**`https://kanso.ltd/terms/zh/`**
 
 ## GitHub Pages 部署（摘要）
 
